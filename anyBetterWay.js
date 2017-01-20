@@ -19,17 +19,3 @@ fs.readdir(this.filePath,(err,files) => {
 
     }
 }.bind(this));
-
-
-let getFile = (err,file) => {
-    if( err ){
-        return ;
-    }
-    let file:string;
-
-    for( file of files){
-        
-    }
-
-}
-fs.readdir(this.filePath,getFile);
