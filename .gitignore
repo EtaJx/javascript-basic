@@ -1,2 +1,4 @@
 ./node/node_module
 ./node_practice/node_module
+./chat/node_modules
+./chat/.DS_Store
