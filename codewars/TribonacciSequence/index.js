@@ -1,0 +1,3 @@
+function tribonacci(signature,n){
+
+}
