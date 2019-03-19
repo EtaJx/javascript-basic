@@ -1,2 +1,1 @@
-一些JavaScript的练习吧
-
+一些JavaScript基础。
