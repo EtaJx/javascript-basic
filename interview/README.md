@@ -18,3 +18,4 @@
   第二个参数，即函数里面有一个事件对象`e`，在`e`中有`target`和`currentTarget`，谈谈两者的区别
 
 - 一个div，水平垂直居中，不少于三种方式
+- MVC是什么？MVVM是什么？MVC和MVVM的区别？
