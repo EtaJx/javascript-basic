@@ -22,7 +22,7 @@ function romanToInt(s) {
   /**
    * 观察，例如'IV'就是4，'VI'就是6
    * 有最终结果 sum
-   * 那么，如果左边代表的值比右边的大，那么应该 sum 加上当前的值；如果左边代表的值比右边小，那么就应该 sum 减去当前的值
+   * 那么，右边的数存在并且如果左边代表的值比右边的大，那么应该 sum 加上当前的值；如果左边代表的值比右边小，那么就应该 sum 减去当前的值
    */
   return _s.reduce((sum, item, index, arr) => !!arr[index + 1] && map[item] < map[arr[index + 1]] ? sum -= map[item] : sum += map[item], 0);
 }
